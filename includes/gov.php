@@ -5,27 +5,27 @@
 
       <!-- Logo 1 -->
       <div class="col-4 col-md-2">
-        <img src="assets/img/bi.png" alt="BI" class="img-fluid logo-circle">
+        <img src="assets/img/bi.png" alt="BI" class="img-fluid logo-circle" draggable="false">
       </div>
 
       <!-- Logo 2 -->
       <div class="col-4 col-md-2">
-        <img src="assets/img/deped.jpg" alt="DepEd" class="img-fluid logo-circle">
+        <img src="assets/img/deped.jpg" alt="DepEd" class="img-fluid logo-circle" draggable="false">
       </div>
 
       <!-- Logo 3 -->
       <div class="col-4 col-md-2">
-        <img src="assets/img/ched.jpg" alt="CHED" class="img-fluid logo-circle">
+        <img src="assets/img/ched.jpg" alt="CHED" class="img-fluid logo-circle" draggable="false">
       </div>
 
       <!-- Logo 4 -->
       <div class="col-4 col-md-2">
-        <img src="assets/img/peac.png" alt="PEAC" class="img-fluid logo-circle">
+        <img src="assets/img/peac.png" alt="PEAC" class="img-fluid logo-circle" draggable="false">
       </div>
 
       <!-- Logo 5 -->
       <div class="col-4 col-md-2">
-        <img src="assets/img/tesda.png" alt="TESDA" class="img-fluid logo-circle">
+        <img src="assets/img/tesda.png" alt="TESDA" class="img-fluid logo-circle" draggable="false">
       </div>
 
     </div>
