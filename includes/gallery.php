@@ -28,15 +28,15 @@
         "breakpoints": {
           "320": {
             "slidesPerView": 1,
-            "spaceBetween": 0
+            "spaceBetween": 10
           },
           "768": {
             "slidesPerView": 2,
-            "spaceBetween": 10
+            "spaceBetween": 20
           },
           "1200": {
             "slidesPerView": 3,
-            "spaceBetween": 20
+            "spaceBetween": 30
           }
         }
       }
@@ -45,38 +45,39 @@
       <div class="swiper-wrapper align-items-center">
 
         <!-- Facebook Embedded Post 1 -->
-        <div class="swiper-slide" style="width: 320px;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSFACCollegeLasPinas%2Fposts%2Fpfbid02yUYQ46Hatm5uBGQ8x65xEocC9TXviPuDVvd1gmBimpnQLtTcMB3euaG2TdHtrhsfl&show_text=true&width=320"
-            width="320" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-          </iframe>
+        <div class="swiper-slide">
+          <div class="post-container">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSFACCollegeLasPinas%2Fposts%2Fpfbid02yUYQ46Hatm5uBGQ8x65xEocC9TXviPuDVvd1gmBimpnQLtTcMB3euaG2TdHtrhsfl&show_text=true&width=320"
+              frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
         </div>
 
         <!-- Facebook Embedded Post 2 -->
-        <div class="swiper-slide" style="width: 320px;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSFACCollegeLasPinas%2Fposts%2Fpfbid0BJpYY6qfdgnKWuPWgYrcFVY2bYKBbZTTTFdds4mvPy8N96JZX47wnDJNz9MXDGhkl&show_text=true&width=500"
-            width="320" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-          </iframe>
+        <div class="swiper-slide">
+          <div class="post-container">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSFACCollegeLasPinas%2Fposts%2Fpfbid0BJpYY6qfdgnKWuPWgYrcFVY2bYKBbZTTTFdds4mvPy8N96JZX47wnDJNz9MXDGhkl&show_text=true&width=320"
+              frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
         </div>
 
         <!-- Facebook Embedded Post 3 -->
-        <div class="swiper-slide" style="width: 320px;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmysfaclp%2Fposts%2Fpfbid0JfHWxHSV5MMDRd9c7T4UnLa5PdC1J8ZXhGCMFeKGsvEUZMVB3RxaESnEjb6PKTv1l&show_text=true&width=500"
-            width="320" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-          </iframe>
+        <div class="swiper-slide">
+          <div class="post-container">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmysfaclp%2Fposts%2Fpfbid0JfHWxHSV5MMDRd9c7T4UnLa5PdC1J8ZXhGCMFeKGsvEUZMVB3RxaESnEjb6PKTv1l&show_text=true&width=320"
+              frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
         </div>
 
         <!-- Facebook Embedded Post 4 -->
-        <div class="swiper-slide" style="width: 320px;">
-          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02iagxdkhBeowQ3qzko2sKovknHhBng5aGcbftUBG7g7TxZpFTmE9jTULjSFX1A5H1l%26id%3D100083779927086&show_text=true&width=500"
-            width="320" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-          </iframe>
+        <div class="swiper-slide">
+          <div class="post-container">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02iagxdkhBeowQ3qzko2sKovknHhBng5aGcbftUBG7g7TxZpFTmE9jTULjSFX1A5H1l%26id%3D100083779927086&show_text=true&width=320"
+              frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
         </div>
 
       </div>
+
       <div class="swiper-pagination"></div>
     </div>
 

@@ -1552,17 +1552,33 @@ section,
 
 .gallery .swiper-slide {
   text-align: center;
-  border-radius: 12px;
-  overflow: visible; /* Allows iframe to maintain its original size */
-  margin: 0 10px;
-  width: auto; /* Let content determine width */
-  transition: none; /* No animation on hover */
+  overflow: visible;
+  transition: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Removed hover effect and shadow */
-.gallery .swiper-slide:hover {
-  transform: none;
-  box-shadow: none;
+.gallery .swiper-slide .post-container {
+  width: 320px;
+  height: 430px;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: white;
+  transition: border 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent; /* Default: no red border */
+}
+
+.gallery .swiper-slide .post-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Highlight the active slide */
+.gallery .swiper-slide-active .post-container {
+  border-color: red;
+  transform: scale(1.05); /* Optional: slightly zoom for active */
 }
 
 /* Pagination styling */
@@ -1572,7 +1588,7 @@ section,
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet {
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 0;
   width: 12px;
   height: 12px;
@@ -1581,13 +1597,8 @@ section,
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color); /* Adjust this to red if needed */
+  background-color: red;
   opacity: 1;
-}
-
-/* Keep the slider smooth but not scaled */
-.gallery .swiper-slide-active {
-  transform: none;
 }
 
 /*--------------------------------------------------------------
@@ -1737,6 +1748,76 @@ section,
   .news-scroll a {
       font-size: 14px;
   }
+}
+
+/*--------------------------------------------------------------
+# Mission Vision, CV Section
+--------------------------------------------------------------*/
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 🌟 default small shadow */
+}
+
+.card-text {
+    color: #333;
+    text-indent: 40px; /* First line indent */
+    text-align: justify; /* Justify text */
+    line-height: 2; /* Double spacing */
+}
+
+.no-indent {
+    text-indent: 0 !important; /* No indentation */
+    line-height: 2; /* Still keep double spacing */
+}
+
+.custom-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #dc3545; 
+    z-index: 0;
+    transition: width 0.5s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card:hover::before {
+    width: 100%;
+}
+
+.custom-card .card-body {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    transition: color 0.5s ease;
+}
+
+.custom-card:hover .card-body,
+.custom-card:hover .card-body h4,
+.custom-card:hover .card-body p,
+.custom-card:hover .card-body strong {
+    color: #ffffff;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #333;
 }
 
 /*--------------------------------------------------------------

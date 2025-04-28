@@ -35,7 +35,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="index.php" class="<?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a></li>
-                <li><a href="about.php" class="<?= ($current_page == 'about.php') ? 'active' : '' ?>">About</a></li>
+                <li><a href="about.php" class="<?= ($current_page == 'about.php') ? 'active' : '' ?>">About Us</a></li>
                 <li><a href="contact.php" class="<?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact Us</a></li>
 
                 <li class="dropdown">
@@ -73,23 +73,23 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <li class="dropdown">
                             <a href="#"><span>Las Piñas Campus</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">HED Enrollment System</a></li>
-                                <li><a href="#">HED Online Grading System</a></li>
-                                <li><a href="#">HED Library System</a></li>
-                                <li><a href="#">BED Enrollment System</a></li>
-                                <li><a href="#">GSBE Library System</a></li>
-                                <li><a href="#">Alumni Tracing System</a></li>
+                                <li><a href="https://stfrancislp.com/sfac-lp/pages/login/sign-in.php">HED Enrollment System</a></li>
+                                <li><a href="https://stfrancislp.com/sfac-lp-ongrade/pages/login/login.php">HED Online Grading System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/library-bacoor/index/basco-html/index.html">HED Library System</a></li>
+                                <li><a href="https://stfrancislp.com/bedlp-enrollment/pages/login/login.php">BED Enrollment System</a></li>
+                                <li><a href="https://stfrancislp.com/gsbe/html/index.php">GSBE Library System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracing System</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#"><span>Bacoor Campus</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">HED Enrollment System</a></li>
-                                <li><a href="#">HED Online Grading System</a></li>
-                                <li><a href="#">HED Library System</a></li>
-                                <li><a href="#">BED Enrollment System</a></li>
-                                <li><a href="#">BED Library System</a></li>
-                                <li><a href="#">Alumni Tracing System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/sfac-bac/pages/login/sign-in.php">HED Enrollment System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/sfac-bac-ongrade/pages/login/login.php">HED Online Grading System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/library-bacoor/index/basco-html/index.html">HED Library System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/basic-edu/">BED Enrollment System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/samplebasic/Tempo/index.php">BED Library System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracing System</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
