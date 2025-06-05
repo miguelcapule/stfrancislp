@@ -11,8 +11,8 @@
         "Empowering minds and shaping futures at Saint Francis of Assisi College, Las Piñas Campus."
         </p>
         <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-          <a href="#be-one-of-us" class="btn-get-started">Be One of Us</a>
-          <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center text-white">
+          <a href="about.php" class="btn-get-started">Be One of Us</a>
+          <a href="assets/videos/hed_vid.mp4" class="glightbox btn-watch-video d-flex align-items-center text-white">
             <i class="bi bi-play-circle"></i><span>Watch Video</span>
           </a>
         </div>

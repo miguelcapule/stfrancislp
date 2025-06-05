@@ -13,7 +13,7 @@
             With quality education, dedicated faculty, and a holistic formation approach, we prepare learners for life—spiritually, intellectually, and socially.
           </p>
           <div class="text-center">
-            <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+            <a href="why_sfac.php" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
           </div>
         </div>
       </div><!-- End Why Box -->

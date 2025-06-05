@@ -6,7 +6,7 @@
     <div>
         <i class="bi bi-envelope"></i> info@sfac.edu.ph
         &nbsp;&nbsp;
-        <i class="bi bi-telephone"></i> (02) 123-4567
+        <i class="bi bi-telephone"></i> 8800 3131
     </div>
 
     <!-- Social Icons (Right) -->
@@ -42,28 +42,27 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <a href="#"><span>College Inquiries</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li class="dropdown-header">Collegiate Courses</li>
-                        <li><a href="#">Bachelor of Science in Nursing</a></li>
-                        <li><a href="#">Bachelor of Science in Electrical Engineering</a></li>
-                        <li><a href="#">Bachelor of Science in Electronics Engineering</a></li>
-                        <li><a href="#">Bachelor of Science in Computer Engineering</a></li>
-                        <li><a href="#">Bachelor of Science in Computer Science</a></li>
-                        <li><a href="#">Bachelor of Science in Business Administration</a></li>
-                        <li><a href="#">Bachelor of Science in Hospitality Management</a></li>
-                        <li><a href="#">Bachelor of Arts, Major in Psychology</a></li>
-                        <li><a href="#">Bachelor of Elementary Education / Teacher Certification Program</a></li>
-                        <li><a href="#">Bachelor of Secondary Education / Teacher Certification Program</a></li>
+                        <li><a href="nursing.php">Bachelor of Science in Nursing</a></li>
+                        <li><a href="electrical.php">Bachelor of Science in Electrical Engineering</a></li>
+                        <li><a href="electronics.php">Bachelor of Science in Electronics Engineering</a></li>
+                        <li><a href="computer_engineering.php">Bachelor of Science in Computer Engineering</a></li>
+                        <li><a href="computer_science.php">Bachelor of Science in Computer Science</a></li>
+                        <li><a href="business_ad.php">Bachelor of Science in Business Administration</a></li>
+                        <li><a href="hospitality.php">Bachelor of Science in Hospitality Management</a></li>
+                        <li><a href="psychology.php">Bachelor of Arts in Psychology</a></li>
+                        <li><a href="elementary_educ.php">Bachelor of Elementary Education / Teacher Certification Program</a></li>
+                        <li><a href="secondary_educ.php">Bachelor of Secondary Education / Teacher Certification Program</a></li>
                         <li class="dropdown-header">Graduate Programs</li>
-                        <li><a href="#">MBA – Master in Business Administration</a></li>
-                        <li><a href="#">MAEd – Master of Arts in Education</a></li>
-                        <li><a href="#">Major in Education Management</a></li>
+                        <li><a href="mba.php">MBA – Master in Business Administration</a></li>
+                        <li><a href="maed.php">MAEd – Master of Arts in Education</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <a href="#"><span>Department</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">Basic Education Department</a></li>
-                        <li><a href="#">Higher Education Department</a></li>
+                        <li><a href="basic_ed.php">Basic Education Department</a></li>
+                        <li><a href="higher_ed.php">Higher Education Department</a></li>
                     </ul>
                 </li>
 
@@ -75,10 +74,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             <ul>
                                 <li><a href="https://stfrancislp.com/sfac-lp/pages/login/sign-in.php">HED Enrollment System</a></li>
                                 <li><a href="https://stfrancislp.com/sfac-lp-ongrade/pages/login/login.php">HED Online Grading System</a></li>
+                                <li><a href="#">HED Guidance System</a></li>
                                 <li><a href="https://stfrancisbacoor.com/library-bacoor/index/basco-html/index.html">HED Library System</a></li>
                                 <li><a href="https://stfrancislp.com/bedlp-enrollment/pages/login/login.php">BED Enrollment System</a></li>
                                 <li><a href="https://stfrancislp.com/gsbe/html/index.php">GSBE Library System</a></li>
-                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracing System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracking System</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -86,10 +86,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             <ul>
                                 <li><a href="https://stfrancisbacoor.com/sfac-bac/pages/login/sign-in.php">HED Enrollment System</a></li>
                                 <li><a href="https://stfrancisbacoor.com/sfac-bac-ongrade/pages/login/login.php">HED Online Grading System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/gcs-bacoor/pages/login/login.php">HED Guidance System</a></li>
                                 <li><a href="https://stfrancisbacoor.com/library-bacoor/index/basco-html/index.html">HED Library System</a></li>
                                 <li><a href="https://stfrancisbacoor.com/basic-edu/">BED Enrollment System</a></li>
                                 <li><a href="https://stfrancisbacoor.com/samplebasic/Tempo/index.php">BED Library System</a></li>
-                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracing System</a></li>
+                                <li><a href="https://stfrancisbacoor.com/alumni_tracer/pages/login/login.php">Alumni Tracking System</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

@@ -33,7 +33,7 @@
 
             <div class="position-relative mt-4">
             <img src="assets/img/sfac-bg2.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <a href="assets/videos/hed_vid.mp4" class="glightbox pulsating-play-btn"></a>
             </div>
         </div>
         </div>

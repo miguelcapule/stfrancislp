@@ -20,17 +20,14 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li class="current">Contact Us</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
+    <div class="page-title text-white position-relative" style="background-image: url('assets/img/sfac-bg4.jpg'); background-size: cover; background-position: center; padding: 140px 0;">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+    
+    <div class="container position-relative" style="z-index: 2;">
+        <h1 class="text-white" style="font-size: 4rem; font-weight: bold;">Contact Us</h1>
+    </div>
+    </div>
+    <!-- End Page Title -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -44,7 +41,7 @@
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="mb-5">
-            <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+            <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.7075939361707!2d120.99793717591726!3d14.444007580889748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ce1d1441cbcd%3A0x7bc346a4a6255599!2sSaint%20Francis%20of%20Assisi%20College%20-%20Las%20Pi%C3%B1as%20Campus!5e0!3m2!1sen!2sph!4v1747620813040!5m2!1sen!2sph" frameborder="0" allowfullscreen=""></iframe>
         </div><!-- End Google Maps -->
 
         <div class="row gy-4">
@@ -54,7 +51,7 @@
                 <i class="icon bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>45 Admiral Village, Talon 3, Las Piñas City, Metro Manila 1740</p>
                 </div>
             </div>
             </div><!-- End Info Item -->
@@ -64,7 +61,7 @@
                 <i class="icon bi bi-telephone flex-shrink-0"></i>
                 <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>8800 3131</p>
                 </div>
             </div>
             </div><!-- End Info Item -->
@@ -74,7 +71,7 @@
                 <i class="icon bi bi-envelope flex-shrink-0"></i>
                 <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>info@sfac.edu.ph</p>
                 </div>
             </div>
             </div><!-- End Info Item -->
@@ -84,7 +81,7 @@
                 <i class="icon bi bi-clock flex-shrink-0"></i>
                 <div>
                 <h3>Opening Hours<br></h3>
-                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                <p><strong>Mon-Sat:</strong> 8AM - 6PM; <strong>Sunday:</strong> Closed</p>
                 </div>
             </div>
             </div><!-- End Info Item -->
